@@ -129,4 +129,5 @@ Rails.application.configure do
   password: Rails.application.credentials.gmail[:password],
   authentication: 'plain',
   enable_starttls_auto: true,
+  }
 end
